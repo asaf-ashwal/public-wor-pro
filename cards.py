@@ -1,5 +1,4 @@
 def card(rank,suite):
-    # rank = int(rank)
     return {"rank": ranking(rank), "suite": suite, "value":rank}
     
     
