@@ -25,6 +25,5 @@ def compare_cards(p1_card: dict, p2_card: dict) -> str:
         return 'p1'
     elif p1 < p2: 
         return 'p2'
-    else: return 'Value is equal'
+    return 'WAR'
 print(compare_cards({"rank": "J", "suite": 'S', "value":11}, {"rank": "A", "suite": "A", "value":14}))
-# biu
