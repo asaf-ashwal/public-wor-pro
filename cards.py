@@ -4,7 +4,7 @@ def card(rank,suite):
     
 def ranking(rank):
     match rank:
-        case '1':
+        case '14':
             return 'A'
         case '13':
             return 'K'
